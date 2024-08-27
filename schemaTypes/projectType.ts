@@ -24,9 +24,19 @@ export const projectType = {
             }
         }),
         defineField({
+            name: 'languages',
+            title: 'Languages',
+            type: 'string'
+        }),
+        defineField({
             name: 'description',
             title: 'Description',
             type: 'text'
+        }),
+        defineField({
+            name: 'order',
+            title: 'Order',
+            type: 'number'
         })
     ]
 }

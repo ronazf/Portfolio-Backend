@@ -14,6 +14,14 @@ export const aboutType = {
             name: 'goals',
             title: 'Goals',
             type: 'text'
+        }),
+        defineField({
+            name: 'image',
+            title: 'Image',
+            type: 'image',
+            options: {
+                hotspot: true
+            }
         })
     ]
 }
