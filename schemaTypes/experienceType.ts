@@ -40,11 +40,6 @@ export const experienceType = {
             type: 'string'
         }),
         defineField({
-            name: 'margin',
-            title: 'Margin',
-            type: 'string'
-        }),
-        defineField({
             name: 'order',
             title: 'Order',
             type: 'number'
